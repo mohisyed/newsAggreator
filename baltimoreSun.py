@@ -46,8 +46,8 @@ def text_from_urls(urls):
         return final_string
 
 
-def email_sender(final_string):
-    user_gmail = input("What is your gmail? ")
+def email_sender(final_string):     # not secure at all just to test.
+    user_gmail = input("What is your gmail? ")        
     password_gmail = input("What is your password? ")
     sender_email = input("Whom do you want to send this to? ")
 
